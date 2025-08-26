@@ -1,0 +1,810 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box ;
+}
+.amb{
+    display: flex;
+    font-size: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(211, 181, 126);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.logoM{
+    font-size: 22px;
+    font-weight: bolder;
+}
+.munch{
+    font-weight: bolder;
+}
+.b1{
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    color: rgb(211, 181, 126);
+    font-weight: bold;
+    font-size: medium;
+    background-color: black;
+}
+
+.nav-bar{
+    height: 450px;
+    background-color: rgb(211, 181, 126);
+    padding: 30px 8px 15px 15px;
+    color: rgb(17, 15, 14);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-bar div{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+    padding: 8px 10px;
+    transition: all 0.3s ease-in-out;
+
+}
+.nav-bar div:hover{
+    border: 3px solid rgb(211, 181, 126);
+    border-radius: 3px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+a{
+    padding: 10px 15px;
+    color: black;
+}
+.first{
+    color: black;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.second{
+    color: black;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+.hero{
+    font-size: 70px;
+    font-weight: 700;
+    color: black;
+    padding: 20px;
+    margin-top: 60px;
+}
+p{
+    font-size: larger;
+    padding: 5px;
+}
+.Section{
+    height: 400px;
+    width: auto;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 50px auto;
+    margin-top: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
+    transition: 0.5s all ease-in;
+}
+.Section:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px;
+    background-color: rgb(75, 43, 20);
+}
+.pic{
+    transform: scaleX(-1);
+    width: 600px;
+}
+.h11{
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    padding: 2px;
+}
+p{
+    font-weight: bold;
+    padding: 25px;
+}
+.Section:hover .buttons{
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    gap: 15PX;
+    border-radius: 25px;
+    transition: all;
+    transition: transform 0.3s ease
+    background-color 0.3s ease;
+}   
+.order{
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section:hover .order{
+    border: 1px solid rgb(75, 43, 20);
+    border-radius: 25px;
+    color: black;
+    transform: translateX(20px);
+}
+.learn{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section:hover .learn{
+    background-color: black;
+    color:  rgb(75, 43, 20);
+    transform: translateX(20px);
+}
+
+.Section01{
+    height: 450px;
+    width: auto;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 50px auto;
+    margin-top: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
+    transition: 0.5s all ease-in;
+}
+.Section01:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px;
+    background-color: rgb(82, 67, 61);
+}
+.img{
+    display: inline-block;
+    position: relative;
+}
+.pic001{
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    transform: rotate(-10deg);
+}
+.pic01{
+    width: 600px;
+}
+.h1101{
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    padding: 2px;
+}
+p{
+    font-weight: bold;
+    padding: 25px;
+}
+.Section01:hover .buttons01{
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons01{
+    display: flex;
+    gap: 15PX;
+    border-radius: 25px;
+    transition: all;
+    transition: transform 0.3s ease
+    background-color 0.3s ease;
+}   
+.order01{
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section01:hover .order01{
+    border: 1px solid rgb(82, 67, 61);
+    border-radius: 25px;
+    color: black;
+    transform: translateX(20px);
+}
+.learn01{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section01:hover .learn01{
+    background-color: black;
+    color:  rgb(82, 67, 61);
+    transform: translateX(20px);
+}
+
+.Section03{
+    height: 450px;
+    width: auto;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 50px auto;
+    margin-top: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
+    transition: 0.5s all ease-in;
+}
+.Section03:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px;
+    background-color: rgb(153, 93, 51);
+}
+.pic03{
+    transform: scaleX(-1);
+    width: 600px;
+}
+.h1103{
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    padding: 2px;
+}
+p{
+    font-weight: bold;
+    padding: 25px;
+}
+.Section03:hover .buttons03{
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons03{
+    display: flex;
+    gap: 15PX;
+    border-radius: 25px;
+    transition: all;
+    transition: transform 0.3s ease
+    background-color 0.3s ease;
+}   
+.order03{
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section03:hover .order03{
+    border: 1px solid rgb(153, 93, 51);
+    border-radius: 25px;
+    color: black;
+    transform: translateX(20px);
+}
+.learn03{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section03:hover .learn03{
+    background-color: black;
+    color:  rgb(153, 93, 51);
+    transform: translateX(20px);
+}
+
+.Section05{
+    height: 400px;
+    width: auto;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 50px auto;
+    margin-top: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
+    transition: 0.5s all ease-in;
+}
+.Section05:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px;
+    background-color: rgb(207, 148, 84);
+}
+.pic05{
+    /* transform: scaleX(-1); */
+    width: 600px;
+}
+.h1105{
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    padding: 2px;
+}
+p{
+    font-weight: bold;
+    padding: 25px;
+}
+.Section05:hover .buttons05{
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons05{
+    display: flex;
+    gap: 15PX;
+    border-radius: 25px;
+    transition: all;
+    transition: transform 0.3s ease
+    background-color 0.3s ease;
+}   
+.order05{
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section05:hover .order05{
+    border: 1px solid rgb(207, 148, 84);
+    border-radius: 25px;
+    color: black;
+    transform: translateX(20px);
+}
+.learn05{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section05:hover .learn05{
+    background-color: black;
+    color:  rgb(207, 148, 84);
+    transform: translateX(20px);
+}
+
+.Section07{
+    height: 450px;
+    width: auto;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 50px auto;
+    margin-top: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
+    transition: 0.5s all ease-in;
+}
+.Section07:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px;
+    background-color: rgb(187, 25, 25);
+}
+.pic07{
+    transform: scaleX(-1);
+    width: 600px;
+}
+.h1107{
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    padding: 2px;
+}
+p{
+    font-weight: bold;
+    padding: 25px;
+}
+.Section07:hover .buttons07{
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons07{
+    display: flex;
+    gap: 15PX;
+    border-radius: 25px;
+    transition: all;
+    transition: transform 0.3s ease
+    background-color 0.3s ease;
+}   
+.order07{
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section07:hover .order07{
+    border: 1px solid rgb(187, 25, 25);
+    border-radius: 25px;
+    color: black;
+    transform: translateX(20px);
+}
+.learn07{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section07:hover .learn07{
+    background-color: black;
+    color:  rgb(187, 25, 25);
+    transform: translateX(20px);
+}
+
+.Section09{
+    height: 450px;
+    width: auto;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 50px auto;
+    margin-top: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
+    transition: 0.5s all ease-in;
+}
+.Section09:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px;
+    background-color: rgb(236, 175, 94);
+}
+.img09{
+    display: inline-block;
+    position: relative;
+    transform: scaleX(-1); 
+
+}
+.pic009{
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    transform: rotate(-10deg);
+    transform: scaleX(-1); 
+
+}
+.pic09{
+    width: 600px;
+    transform: scaleX(-1); 
+}
+.h1109{
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    padding: 2px;
+}
+p{
+    font-weight: bold;
+    padding: 25px;
+}
+.Section09:hover .buttons09{
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons09{
+    display: flex;
+    gap: 15PX;
+    border-radius: 25px;
+    transition: all;
+    transition: transform 0.3s ease
+    background-color 0.3s ease;
+}   
+.order09{
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section09:hover .order09{
+    border: 1px solid rgb(236, 175, 94);
+    border-radius: 25px;
+    color: black;
+    transform: translateX(20px);
+}
+.learn09{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section09:hover .learn09{
+    background-color: black;
+    color:  rgb(236, 175, 94);
+    transform: translateX(20px);
+}
+
+.Section0k{
+    height: 450px;
+    width: auto;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+    margin: 50px auto;
+    margin-top: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
+    transition: 0.5s all ease-in;
+}
+.Section0k:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 8px 20px;
+    background-color: rgb(70, 40, 19);
+}
+.img0k{
+    display: inline-block;
+    position: relative;
+    transform: scaleX(-1); 
+
+}
+.pic00k{
+    width: 250px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    right: 250px;
+    transform: scaleX(-1); 
+
+}
+.pic0k{
+    width: 600px;
+}
+.h110k{
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    padding: 2px;
+}
+p{
+    font-weight: bold;
+    padding: 25px;
+}
+.Section0k:hover .buttons0k{
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons0k{
+    display: flex;
+    gap: 15PX;
+    border-radius: 25px;
+    transition: all;
+    transition: transform 0.3s ease
+    background-color 0.3s ease;
+}   
+.order0k{
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 25px;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section0k:hover .order0k{
+    border: 1px solid rgb(70, 40, 19);
+    border-radius: 25px;
+    color: black;
+    transform: translateX(20px);
+}
+.learn0k{
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in;
+    font-weight: bold;
+    font-size: medium;
+}
+.Section0k:hover .learn0k{
+    background-color: black;
+    color:  rgb(70, 40, 19);
+    transform: translateX(20px);
+}
+.hr{
+    background-color: rgb(211, 181, 126);
+    border: none;
+    height: 2px;
+    margin: 100px 0;
+}
+/* lastt */
+.flex1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+#zero{
+    font-weight: bolder;
+    padding: 10px;
+}
+
+#one{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+#one:hover{
+    background-color: rgb(211, 181, 126);
+    transition: 0.3s all ease-in;
+}
+#two{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+#two:hover{
+    background-color: rgb(211, 181, 126);
+    transition: 0.5s all ease-in;
+} 
+#thre{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+#thre:hover{
+    background-color: rgb(211, 181, 126);
+    transition: 0.3s all ease-in;
+}
+#for{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+#for:hover{
+    background-color: rgb(211, 181, 126);
+    transition: 0.3s all ease-in;
+}
+#fiv{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+#fiv:hover{
+    background-color: rgb(211, 181, 126);
+    transition: 0.3s all ease-in;
+}
+#six{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+#six:hover{
+    background-color: rgb(211, 181, 126);
+    transition: 0.3s all ease-in;
+}
+/* lastt01 */
+.flex101{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+#zero01{
+    font-weight: bolder;
+    padding: 10px;
+}
+
+#one01{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+#one01:hover{
+    background-color: rgb(211, 181, 126);
+    transition: 0.3s all ease-in;
+}
+#two01{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+#two01:hover{
+    background-color: rgb(211, 181, 126);
+    transition: 0.3s all ease-in;
+} 
+#thre01{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+#thre01:hover{
+    background-color: rgb(211, 181, 126);
+    transition: 0.3s all ease-in;
+}
+#for01{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+#for01:hover{
+    background-color: rgb(211, 181, 126);
+    transition: 0.3s all ease-in;
+}
+#fiv01{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+#fiv01:hover{
+    background-color: rgb(211, 181, 126);
+    transition: 0.5s all ease-in;
+}
+#six01{
+    border-radius: 25px;
+    border: 2px solid transparent;
+    padding: 10px;
+}
+#six01:hover{
+    background-color: rgb(211, 181, 126);
+    transition: 0.3s all ease-in;
+}
+.tags01{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 30px;
+    gap: 20px;
+}
+.name{
+    height: 450px;
+    background-color: rgb(211, 181, 126);
+    padding: 30px 8px 15px 15px;
+    color: rgb(17, 15, 14);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.name-1{
+    font-weight: bolder;
+    font-size: 100px;
+
+}
+
